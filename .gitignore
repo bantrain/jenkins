@@ -1,3 +1,13 @@
-build-harness/
-.idea
-*.iml
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+**/.idea
+**/*.iml
+*.state
+
+**/.build-harness
+**/build-harness
